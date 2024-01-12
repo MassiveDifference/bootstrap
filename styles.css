@@ -51,7 +51,7 @@ img {
   width: 100%;
   height: auto;
   display: grid;
-  grid: "header header header" auto "leftSide body rightSide" 1fr "obj1 obj2 obj3" auto "footer footer footer" auto/auto 1fr auto;
+  grid: "header header header" auto "leftSide body rightSide" 1fr "obj1 obj2 obj3" 1fr "footer footer footer" auto/auto 1fr auto;
   gap: 8px;
 }
 

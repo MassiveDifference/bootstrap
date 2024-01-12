@@ -55,7 +55,7 @@ img{
     grid:
       "header header header" auto
       "leftSide body rightSide" 1fr
-      "obj1 obj2 obj3" auto
+      "obj1 obj2 obj3" 1fr
       "footer footer footer" auto
       / auto 1fr auto;
     gap: 8px;
