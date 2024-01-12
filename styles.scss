@@ -1,14 +1,15 @@
-body{
-    background: rgb(2,0,36);
-    background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
+$couleur1: rgba(2,0,36,1);
+$couleur2: rgba(9,9,121,1);
+$couleur3: rgba(0,212,255,1);
+
+@import "body.scss";
 
 .pictures {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 5px;
-    grid-row-gap: 0px;
+    grid-row-gap: 5px;
 }
 
 img{
